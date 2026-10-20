@@ -1,7 +1,7 @@
 // src/lib/utils.js
 
 import { NextResponse } from "next/server";
-import corsHeaders from "./cors";
+import corsHeaders from "./cors.js";
 
 export function printExceptionLog(logMessage, error) {
   console.log(`==>${logMessage} Exception`);
