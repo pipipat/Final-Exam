@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://coursehub-backend-ten.vercel.app/api/:path*"
+    }
+  ]
+}
