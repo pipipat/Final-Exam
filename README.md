@@ -212,19 +212,3 @@ cd react-frontend
 npm run lint
 npm run build
 ```
-
-## Deployment and Submission
-
-Deployment links will be added after deployment is completed and verified.
-
-- **Backend source code:** [ADD YOUR REPOSITORY OR BACKEND DIRECTORY URL]
-- **Frontend source code:** [ADD YOUR REPOSITORY OR FRONTEND DIRECTORY URL]
-- **Deployed Backend URL:** [ADD AFTER DEPLOYMENT]
-- **Deployed Frontend URL:** [ADD AFTER DEPLOYMENT]
-- **Screen recording URL:** [ADD YOUR RECORDING LINK]
-
-Deploy the two existing directories as separate Vercel projects. The deployed backend needs a reachable MongoDB Atlas URI in `MONGODB_URI`, a `JWT_SECRET`, and the deployed frontend origin in `FRONTEND_URL`. A Docker database bound to the developer's localhost is for local testing.
-
-The deployed frontend must be configured to communicate with the backend and preserve authentication cookies. Verify login, course management, enrollment, and logout on the deployed URLs before submission. The final deployment configuration and URLs will be documented here when verified.
-
-Environment files are ignored by Git. Keep real JWT secrets and database connection credentials out of the repository and this README.
